@@ -1,0 +1,41 @@
+
+/*project page styling*/
+.side-bar{
+   position: fixed;
+    width: 390px;
+}
+
+.project-image img {
+    margin-top: 20px;
+    height: 350px;
+    width: 700px;
+    border: dashed rgb(88, 140, 126);
+}
+h3{
+    margin-top: 30px;
+
+}
+
+/* Social media icons replacement Projects pages*/
+.fa {
+    font-size: 2em;
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.social-media-icons1{
+    padding-left: 40px;
+    margin-top: 5.2em;
+    margin-bottom: 10px;
+    color: black;
+}
+.fa:hover {
+    color: #28825a;
+
+}
+.social-media-icons1:hover {
+    color: white;
+
+}

@@ -1,0 +1,130 @@
+.content{
+    background-color: whitesmoke;
+
+
+}
+.text{
+    margin-left: 40px;
+    margin-top: 20px;
+    padding: 30px;
+    text-align: left;
+
+}
+/*about me text and picture positioning*/
+.text-1{
+    margin-top: 45px;
+
+}
+.text-2{
+    margin-top: 50px ;
+
+}
+.border{
+    border-bottom: solid #28825a 1px;
+}
+
+.image-frontend img {
+    height: 225px;
+    opacity: 0.9;
+    border-radius: 30px;
+}
+.image-frontend{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+
+}
+/*Banner For project page*/
+.project-title{
+    margin-left: 40px;
+    /*margin-top: 2px;*/
+    padding: 30px;
+    text-align: left;
+
+}
+.instabap{
+    /*margin-top: 30px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.banner-project{
+    height: 160px;
+    width: 467px;
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+.float-left-column{
+    float: left;
+
+}
+
+.project-button{
+    border-radius:  2px;
+    border: 3px solid #28825a;
+    padding: 10px 10px;
+    display: inline-block;
+    font-size: 15px;
+    background: transparent;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-decoration:none;
+    color: #28825a;
+
+
+}
+.banner-project:hover {
+    filter: none;
+    -webkit-filter: grayscale(0%);
+}
+
+.project-button:hover {
+
+    background-color: #28825a;
+    color: white;
+}
+
+/*contact page stylng*/
+
+.contact-info{
+
+    margin-top: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    flex-direction: column;
+
+}
+.contact-info .fa{
+    color: black;
+    padding: 10px;
+    border-bottom: solid #28825a;
+    cursor: pointer;
+
+}
+.contact-info .fa:hover {
+
+    background-color: #28825a;
+    color: white;
+}
+
+/*project Images*/
+
+
+
+
+
+
+
+

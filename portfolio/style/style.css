@@ -1,0 +1,111 @@
+@import "../style/css/font-awesome.min.css";
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+
+body{
+    /*background image*/
+    background: url("../images/website-background.png");
+    background-size: cover;
+
+}
+
+.grid{
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 1fr 2.5fr ;
+    grid-template-areas:
+            " sidebar content "
+;
+}
+
+.content{
+    grid-area: content;
+    position: relative;
+
+
+}
+
+
+/*introductie*/
+.introducing{
+    font-size: 23px;
+    padding: 30px;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 30px;
+    color: #eeeeee;
+
+}
+/*menu Styling*/
+.navbar a {
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+
+
+}
+
+.navbar a:hover {
+    background-color: #28825a;
+    color:white;
+}
+
+/*social media icons*/
+.fa {
+    font-size: 2em;
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.social-media-icons{
+    padding-left: 40px;
+    margin-top: 6.5em;
+    margin-bottom: 10px;
+    color: black;
+}
+.fa:hover {
+    color: #28825a;
+
+}
+.social-media-icons:hover {
+    color: white;
+
+}
+
+
+/*profile styling*/
+.profile{
+    margin-top: 35px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+
+}
+/*profile picture*/
+.profile-pic{
+    border-radius: 8px;
+    background-image: url(../images/Profile-pic.jpg);
+    width: 63%;
+    height: auto;
+
+}
+
+.side-bar{
+    grid-area: sidebar;
+    background-color: rgba(88, 140, 126, 0.3);
+
+}
